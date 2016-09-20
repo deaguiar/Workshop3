@@ -1,7 +1,10 @@
 .chat-popup {
 width: 300px;
-position: absolute;
+position: fixed;
 bottom: 0px;
 right: 20px;
 }
 Note: C
+body {
+padding-top: 60px;
+}
