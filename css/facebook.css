@@ -77,7 +77,8 @@ border-top: 1px solid lightgray;
 }
 body {
 padding-top: 60px;
-/* I figured out the background color using Chrome's Inspect tool. */ background-color: #e9eaed;
+/* I figured out the background color using Chrome's Inspect tool. */
+background-color: #e9eaed;
 }
 /* Fix background, text, and border of right sidebar. */
 .fb-right-sidebar {
@@ -101,8 +102,11 @@ border-radius: 2px; }
      we set 'color' for the entire right sidebar to gray! */
 color: inherit; }
 /* Customize the look of active pills in trending widget */
-.fb-trending > .row:first-child li.active a { background-color: transparent;
-/* Same color as the lightning bolt */ color: #5990ff;
+.fb-trending > .row:first-child li.active a {
+  background-color:
+  transparent;
+/* Same color as the lightning bolt */
+  color: #5990ff;
 }
 /* Apply a light-blue color to flash icons *only* in the content
    section of the trending widget. */
@@ -121,7 +125,6 @@ background-color: #3a5795;
 /* Make house logo white, even if the user hovers over it */
  .navbar .navbar-brand, .navbar .navbar-brand:hover {
 color: white;
-
 }
 /* Remove the background color and border of all navbar buttons. Make their
    color dark blue, like Facebook. */
